@@ -118,6 +118,13 @@ main {
   fill: var(--color-secondary);
 }
 
+#search-button:active {
+  background-color: var(--bg-color);
+  border: 2px solid var(--bg-color-light);
+  color: var(--color);
+  transition: all 0.2s ease-in-out;
+}
+
 /* INFO ABOUT THE PROFILE */
 
 #profile-pic {
